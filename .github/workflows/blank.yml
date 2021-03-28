@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: docker://pandoc/core:2.9
         with:
-          args: --from=gfm --to=docx --output=output/book.docx --standalone
+          args: --from=gfm --to=docx --output=output/book.docx --standalone "*.md"
       - uses: actions/upload-artifact@master
         with:
           name: output
