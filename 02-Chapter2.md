@@ -1,3 +1,7 @@
 # Chapter 2: Blockchain
 
-![Blockchan](/images/DoINeedABlockChainNo.png)
+<!--
+![Blockchain](/images/DoINeedABlockChainNo.png)
+-->
+
+![Blockchain](https://github.com/samsmithnz/SoftwareAdvice/blob/main/images/DoINeedABlockChainNo.png)
