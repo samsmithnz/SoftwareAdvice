@@ -5,7 +5,7 @@ Let's talk about DevOps, or "DevOops".
 ## Automated testing
 Number 1 problem/challenge is automated testing. Resistance is common from the QA manager/team, who misunderstand that the point of automation is not to replace their jobs - it's to replace the long regression testing phases. With proper automated testing and a well balanced test pyramid, an entire regression test can be run quickly.
 
-![TDD](/images/TDDAndBridges.png "TDD and bridges")
+![TDD](assets/TDDAndBridges.png "TDD and bridges")
 
 ## database DevOps
 Number 2 issue is data. DevOps on database is hard, as you fundamentally have to change the way you think about managing data. The crux of this comes down to the concept of destructive and non-destructive changes.
