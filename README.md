@@ -1,4 +1,4 @@
-# SoftwareBook
-(Need to think of a better name.). A musing about software problems and possible solutions. The problems with DevOps, micro services, "clever" developers and everything in between
+# SoftwareAdvice
+(Need to think of a better name.). A musing about software problems, wisdom, and possible solutions. DevOps, microservices, containers, RegEx, Linq, "clever" developers and everything in between
 
-Using Pandoc to convert the markdown to PDF and Word
+Using [Pandoc](https://github.com/pandoc/pandoc-action-example) to convert the markdown to PDF and Word with GitHub Actions
