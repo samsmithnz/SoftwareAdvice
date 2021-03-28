@@ -1,6 +1,8 @@
-Purpose: share best practices and focus people on how to be really successful with DevOps
+# SoftwareAdvice Outline
 
-Main points:
+## Purpose: share best practices and focus teams on how to be really successful with software development
+
+## Main points:
 - Keep it simple stupid: complexity will come - don't intentionally add complexity.
 - Everytime a developer is clever, an atrocity is committed: Keep it simple. Don't add RegEx or Linq unless 
 
@@ -8,8 +10,7 @@ Main points:
 - Unit testing is important, but most misunderstand it
 - DevOps/Agile is mostly about culture and behavior change, not tools - but most organizations butcher it to match 'their' process, instead of adapting to DevOps best practices
 
-
-Where code falls apart (Agile/DevOps/etc). 
+## Where code falls apart (Agile/DevOps/etc). 
 
 1. Developing an idea
 1. Leading the team
