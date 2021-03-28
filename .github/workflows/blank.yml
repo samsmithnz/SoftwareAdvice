@@ -18,7 +18,7 @@ jobs:
         run: mkdir output
       - uses: docker://pandoc/core:2.9
         with:
-          args: 00-Outline.md 01-Chapter1.md --to=docx --output=book.docx #--from=gfm --standalone 
+          args: 00-Outline.md 01-Chapter1.md 01-Chapter2.md --to=docx --output=book.docx #--from=gfm --standalone 
       - uses: actions/upload-artifact@master
         with:
           name: output
