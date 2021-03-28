@@ -3,4 +3,4 @@
 
 Using [Pandoc](https://pandoc.org/MANUAL.html) to convert the markdown to PDF and Word with [GitHub Actions](https://github.com/pandoc/pandoc-action-example)
 
-[![CI](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml/pipeline.svg)](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml)
+[![CI](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml/badge.svg)](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml)
