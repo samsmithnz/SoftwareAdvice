@@ -18,7 +18,7 @@ jobs:
         run: mkdir imagesOutput
       - uses: docker://pandoc/core:2.9
         with:
-          args: 00-Outline.md 01-Chapter1.md 02-Chapter2.md --to=docx --output=book.docx --extract-media=imagesOutput #--from=gfm --standalone 
+          args: 00-Outline.md 01-Chapter1.md 02-Chapter2.md --to=docx --output=book.docx # --extract-media=imagesOutput #--from=gfm --standalone 
       - uses: actions/upload-artifact@master
         with:
           name: output
