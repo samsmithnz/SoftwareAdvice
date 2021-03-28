@@ -13,6 +13,7 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: create output directory
         run: mkdir output
       - uses: docker://pandoc/core:2.9
