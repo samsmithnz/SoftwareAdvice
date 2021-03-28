@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: prep output
+        run: mkdir imagesOutput
       - uses: docker://pandoc/core:2.9
         with:
           args: 00-Outline.md 01-Chapter1.md 02-Chapter2.md --to=docx --output=book.docx --extract-media=imagesOutput #--from=gfm --standalone 
