@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  convert_via_pandoc:
+  ConvertMarkdownToDocx:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
