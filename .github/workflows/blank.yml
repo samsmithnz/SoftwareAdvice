@@ -13,9 +13,11 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-latest
     steps:
+      - name: create output directory
+        run: mkdir output
       - uses: docker://pandoc/core:2.9
         with:
-          args: --from=gfm --to=docx --output=output/book.docx --standalone 00-Outline.md
+          args: 00-Outline.md --to=docx --output=output/book.docx #--from=gfm --standalone 
       - uses: actions/upload-artifact@master
         with:
           name: output
