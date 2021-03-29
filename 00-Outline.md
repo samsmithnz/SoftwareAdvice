@@ -27,6 +27,8 @@ These are my personal views and do not reflect my employer
 
 Why?
 
+## Managing technical debt
+
 ## AI
 
 - Garbage in == Garbage out
