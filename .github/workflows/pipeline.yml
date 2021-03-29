@@ -40,7 +40,7 @@ jobs:
         args: 01-Chapter1.md 02-Chapter2.md --to=docx --output=SoftwareAdvice.docx #--toc --standalone # --extract-media=. # --standalone # --extract-media=imagesOutput #--from=gfm --standalone 
     - uses: actions/upload-artifact@master
       with:
-        name: output
+        name: drop
         path: SoftwareAdvice.docx
 
   release:
@@ -48,10 +48,10 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'    
     steps:
-    - name: Download nuget package artifact
+    - name: Download build artifacts
       uses: actions/download-artifact@v1.0.0
       with:
-        name: output  
+        name: drop  
     - name: Display GitVersion outputs
       run: |
         echo "Version: ${{ needs.build.outputs.Version }}" 
@@ -69,7 +69,7 @@ jobs:
       uses: ncipollo/release-action@v1
       if: needs.build.outputs.CommitsSinceVersionSource > 0 #Only create a release if there has been a commit/version change
       with:
-        artifacts: "SoftwareAdvice.docx"
+        artifacts: drop/SoftwareAdvice.docx
         tag: ${{ needs.build.outputs.Version }}
         name: Release ${{ needs.build.outputs.Version }}
         token: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
