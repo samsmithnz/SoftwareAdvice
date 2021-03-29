@@ -13,13 +13,13 @@
 
 1. Developing an idea
 1. Leading the team
-  1. being a leader
-    1. striving for leadership. What is leadership? What isn't leadership? When you are being a manager? Why protecting and advocating for your direct reports is the most important part
-    1. Trying to do better than your goals
-    1. Lead by example
-    1. invest in yourself and team: continuous learning and networking opportunities - retention is a trailing indicator - but people will stay longer than usual if they are still learning, even if salary is less than ideal
-    1. Invest in yourself: sleep is important to recharge and repair.
-  1. Hiring a team
+2. being a leader
+3. striving for leadership. What is leadership? What isn't leadership? When you are being a manager? Why protecting and advocating for your direct reports is the most important part
+4. Trying to do better than your goals
+5. Lead by example
+6. invest in yourself and team: continuous learning and networking opportunities - retention is a trailing indicator - but people will stay longer than usual if they are still learning, even if salary is less than ideal
+7. Invest in yourself: sleep is important to recharge and repair.
+8. Hiring a team
     1. How to conduct interviews
       1. Passion 
       1. debugging tests
