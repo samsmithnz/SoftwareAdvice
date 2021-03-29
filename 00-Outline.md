@@ -25,7 +25,12 @@ These are my personal views and do not reflect my employer
 
 ## Blockchain
 
+Why?
+
 ## AI
+
+- Garbage in == Garbage out
+- Where AI excels today and where you should use it. 
 
 ## Leadership/ team management
 
@@ -43,6 +48,13 @@ These are my personal views and do not reflect my employer
       1. debugging tests
       1. Thinking tests
       1. No whiteboards. No mindbenders 
-    1. Developing the team
+    2. Developing the team
       1. Managing 'clever' developers
       1. Encouraging right incentives
+    3. What does your dream team look like?
+
+## Personal development/ Career planning
+
+1. What do you like doing? What do you not like doing?
+2. Where is your dream employer? What is your dream project? 
+3.  
