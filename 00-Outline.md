@@ -1,6 +1,7 @@
 # SoftwareAdvice Outline
 
 ## Purpose: share best practices and focus teams on how to be really successful with software development
+These are my personal views and do not reflect my employer
 
 ## Main points:
 - Keep it simple stupid: complexity will come - don't intentionally add complexity.
@@ -10,6 +11,23 @@
 - DevOps/Agile is mostly about culture and behavior change, not tools - but most organizations butcher it to match 'their' process, instead of adapting to DevOps best practices
 
 ## Where code falls apart (Agile/DevOps/etc). 
+
+  1. Creating the product
+    1. DevOps & Agile
+      1. Creating time on Backlog for technical debt and continuous improvement
+    1. Code analysis
+    2. Code Reviews
+    3. Agreeing on formatting - using tools (EditorConfig) to take the opinion out of development
+    1. Tools and technologies
+    1. Monitoring for feedback
+    1. Technology. When to use microservices. When not to. When to use containers. What language to use.
+    2. Middleware. Frameworks. Packages. DI. Entity framework
+
+## Blockchain
+
+## AI
+
+## Leadership/ team management
 
 1. Developing an idea
 1. Leading the team
@@ -28,12 +46,3 @@
     1. Developing the team
       1. Managing 'clever' developers
       1. Encouraging right incentives
-  1. Creating the product
-    1. DevOps & Agile
-      1. Creating time on Backlog for technical debt and continuous improvement
-    1. Code analysis
-    2. Code Reviews
-    3. Agreeing on formatting - using tools (EditorConfig) to take the opinion out of development
-    1. Tools and technologies
-    1. Monitoring for feedback
-    1. Technology. When to use microservices. When not to. When to use containers. What language to use.
