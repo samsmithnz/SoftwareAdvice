@@ -48,6 +48,10 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'    
     steps:
+    - name: Download nuget package artifact
+      uses: actions/download-artifact@v1.0.0
+      with:
+        name: output  
     - name: Display GitVersion outputs
       run: |
         echo "Version: ${{ needs.build.outputs.Version }}" 
