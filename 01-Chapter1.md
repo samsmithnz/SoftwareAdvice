@@ -1,6 +1,6 @@
 # Chapter 1: DevOps
 
-Let's talk about DevOps, or "DevOops".
+Let's talk about DevOps, or "DevOops". DevOps is primarily about continuously learning. It's ok to make mistakes, but let's automate what we can and not make the same mistake twice. DevOps is primilarly not a tool, or a process, DevOps is a movement of behaviours and culture that encourage postive and blameless progress.
 
 ## Automated testing
 Automated testing is usually the first challenge in implementing DevOps. Resistance is common from the QA manager/team, who misunderstand that the point of automation is not to replace their jobs - it's to replace the long regression testing phases. QA can now focus on the latest changes, and be confident that their previous changes are being tested.
@@ -22,3 +22,8 @@ Number 3 is Infrastructure as Code. This is where the cloud comes in. Having you
 
 ## Feature Flags/Toggles
 Not always recognized a being critical to DevOps - but if you want to continually deploy to production, you can't do this without Feature Flags. Feature Flags also help to battle environment sprawl. Have 5-7 environments? (Dev, intergration, test, qa, staging, prod?) Why? What do those middle layers give you? It's like adding 3 different types of lettece in a sandwich - the resulting sandwich is not better or worse. With Feature Flags you can release more WIP into production with the feature disabled for the majority of users. This means we need less environments - which helps with another core DevOps metric: Lead Time For Changes.
+
+## Agile methodology
+SaFE is not Agile. Agile is not about planning out the next 3 months in detail. Being able to change your mind anytime you like, is not Agile. 
+
+Agile is about planning to deliver small pieces of work within a spring, that can be adapted, adjusted, and reassessed after each sprint. Agile is about continuously learning. 
