@@ -61,24 +61,26 @@ Why?
 2. Where is your dream employer? What is your dream project? 
 
 
-## Building a team
+## Project setup checklist
 
 1. Start with an idea
-2. project planning (wait, should this be later)?
-3. choosing a language (C#)
-4. choosing an IDE (Visual Studio)
-5. choosing a cloud (Azure) 
-6. choosing a DevOps platform (GitHub)
+2. choose a language(s) (C#)
+3. choosing an IDE (Visual Studio)
+4. choosing a cloud (Azure) 
+5. choosing a DevOps platform (GitHub)
     1. Creating an organization
     2. Creating a repo
     3. Setting up branch rules
-7. Creating the new/empty project
+6. Creating the new/empty project
     1. Setting up CI/CD and release versioning
     2. Creating basic empty projects (Rest API, Website, etc)
     3. Creating basic unit and smoke/functional test projects - to prove that we are deploying working code 
     4. Deploying to the cloud (with infrastructure as code), for each needed environment (Dev, QA, Prod?)
-8. Back to GitHub
+7. Back to GitHub
      1. Setting up dependabot to automatically update dependencies
      2. Setup security to check for secrets and unsafe dependency
-9. Hiring a team
-10. 
+8. Project planning
+     1. Set goals/roadmap. What does Alpha/Beta/GA look like?
+     2. Epics
+     3. Features
+     4. PBI/ User Stories
