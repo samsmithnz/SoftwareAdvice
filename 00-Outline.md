@@ -29,6 +29,8 @@ Why?
 
 ## Managing technical debt
 
+we need to understand what we have. What projects are older, what projects have risky/old technology. We need to catalog all applications
+
 ## AI
 
 - Garbage in == Garbage out
