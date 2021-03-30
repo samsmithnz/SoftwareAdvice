@@ -63,8 +63,8 @@ Why?
 
 ## Building a team
 
-1. an idea
-2. project planning
+1. Start with an idea
+2. project planning (wait, should this be later)?
 3. choosing a language (C#)
 4. choosing an IDE (Visual Studio)
 5. choosing a cloud (Azure) 
@@ -72,9 +72,13 @@ Why?
     1. Creating an organization
     2. Creating a repo
     3. Setting up branch rules
-    4. Setting up dependabot
 7. Creating the new/empty project
     1. Setting up CI/CD and release versioning
-    2. Deploying to the cloud (with infrastructure as code)
-8. Hiring a team
-9. 
+    2. Creating basic empty projects (Rest API, Website, etc)
+    3. Creating basic unit and smoke/functional test projects - to prove that we are deploying working code 
+    4. Deploying to the cloud (with infrastructure as code), for each needed environment (Dev, QA, Prod?)
+8. Back to GitHub
+     1. Setting up dependabot to automatically update dependencies
+     2. Setup security to check for secrets and unsafe dependency
+9. Hiring a team
+10. 
