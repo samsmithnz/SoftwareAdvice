@@ -27,3 +27,28 @@ Not always recognized a being critical to DevOps - but if you want to continuall
 SaFE is not Agile. Agile is not about planning out the next 3 months in detail. Being able to change your mind anytime you like, is not Agile. 
 
 Agile is about planning to deliver small pieces of work within a spring, that can be adapted, adjusted, and reassessed after each sprint. Agile is about continuously learning. 
+
+## steps to success
+Behavior's to successful DevOps
+
+1. Why DevOps?
+1. What is DevOps
+1. Executive support
+1. Team POC
+1. Construct the Team
+1. Value Stream Mapping
+1. Dev
+  1. Source Control
+  1. Branching strategy
+  1. Coding Standards
+  1. Code Analysis
+1. CI
+  1. Branch Policies
+  1. Pull Requests
+  1. Testing Strategy
+1. CD
+  1. Continuous Delivery
+  1. Continuous Deployment
+1. CM
+  1. DevSecOps
+  1. Continuous learning
