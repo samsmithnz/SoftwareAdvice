@@ -2,6 +2,13 @@
 
 Let's talk about DevOps, or "DevOops". DevOps is primarily about continuously learning. It's ok to make mistakes, but let's automate what we can and not make the same mistake twice. DevOps is primilarly not a tool, or a process, DevOps is a movement of behaviours and culture that encourage postive and blameless progress.
 
+## What not to do
+
+- If you think you can adopt DevOps with a new tool, you will be disappointed.
+- If you think you can change the whole organization by yourself, you will have a bad time
+- If you think you can do DevOps without executive support, you will fail
+- If you think you can solve DevOps by adding a new "DevOps engineer" to your team, you will fail
+
 ## Automated testing
 Automated testing is usually the first challenge in implementing DevOps. Resistance is common from the QA manager/team, who misunderstand that the point of automation is not to replace their jobs - it's to replace the long regression testing phases. QA can now focus on the latest changes, and be confident that their previous changes are being tested.
 
