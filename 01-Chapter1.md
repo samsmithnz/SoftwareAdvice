@@ -8,6 +8,7 @@ Let's talk about DevOps, or "DevOops". DevOps is primarily about continuously le
 - If you think you can change the whole organization by yourself, you will have a bad time
 - If you think you can do DevOps without executive support, you will fail
 - If you think you can solve DevOps by adding a new "DevOps engineer" to your team, you will fail
+- By very careful  measuring your teams progress and effectiveness with metrics, especially lines of code or velocity.
 
 ## Automated testing
 Automated testing is usually the first challenge in implementing DevOps. Resistance is common from the QA manager/team, who misunderstand that the point of automation is not to replace their jobs - it's to replace the long regression testing phases. QA can now focus on the latest changes, and be confident that their previous changes are being tested.
