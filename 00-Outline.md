@@ -57,6 +57,10 @@ we need to understand what we have. What projects are older, what projects have 
       1. Encouraging right incentives
     3. What does your dream team look like?
 
+## Cloud Native
+- VM's are not cloud native. If you are deploying VM's in 2021 for a new application, you are failing the cloud
+- Multiple clouds have resilency, but also double the cost, financially, training, time, and complexity. Don't underestimate this. Don't think that Terraform makes you instantly multicloud. 
+
 ## Personal development/ Career planning
 
 1. What do you like doing? What do you not like doing?
