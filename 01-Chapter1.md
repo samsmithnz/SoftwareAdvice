@@ -10,6 +10,12 @@ Let's talk about DevOps, or "DevOops". DevOps is primarily about continuously le
 - If you think you can solve DevOps by adding a new "DevOps engineer" to your team, you will fail
 - By very careful  measuring your teams progress and effectiveness with metrics, especially lines of code or velocity.
 
+## What do to
+- Learn from your mistakes - and don't blame people for the mistakes, use them as constructive learning opportunities
+- Practice "good enough". Your automated tests don't have to be perfect, they need to be 'good enough', and if a piece fails - that is where we invest more
+- Focus on what hurts the most: What is not automated and could be? What should be running with automation but isn't working? What automation is not reliable?
+- Not everyone needs DevOps nirvana. Some projects just need CI/CD. On the other hand, some applications are strategic and need continuous delivery and SRE and should strive for DevOps Nirvana. 
+
 ## Automated testing
 Automated testing is usually the first challenge in implementing DevOps. Resistance is common from the QA manager/team, who misunderstand that the point of automation is not to replace their jobs - it's to replace the long regression testing phases. QA can now focus on the latest changes, and be confident that their previous changes are being tested.
 
