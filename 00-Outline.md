@@ -7,7 +7,7 @@ These are my personal views and do not reflect my employer
 - Keep it simple stupid: complexity will come - don't intentionally add complexity.
 - Everytime a developer is clever, an atrocity is committed: Keep it simple. Minimize RegEx, XSLT, or Linq, as it's very difficult to maintain/understand later. 
 - Software is too complicated (don't add middleware you *might* need)
-- Unit testing is important, but most misunderstand it. An inte
+- Unit testing is important, but most misunderstand it. 
 - DevOps/Agile is mostly about culture and behavior change, not tools - but most organizations butcher it to match 'their' process, instead of adapting to DevOps best practices
 
 ## Where code falls apart (Agile/DevOps/etc). 
