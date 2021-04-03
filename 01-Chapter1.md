@@ -9,6 +9,7 @@ Let's talk about DevOps, or "DevOops". DevOps is primarily about continuously le
 - If you think you can do DevOps without executive support, you will fail
 - If you think you can solve DevOps by adding a new "DevOps engineer" to your team, you will fail
 - By very careful  measuring your teams progress and effectiveness with metrics, especially lines of code or velocity.
+- If you think you can adopt DevOps without any organizational or cultural changes, you will fail, and of course, it's DevOps fault
 
 ## What do to
 - Learn from your mistakes - and don't blame people for the mistakes, use them as constructive learning opportunities
