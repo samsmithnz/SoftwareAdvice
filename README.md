@@ -1,7 +1,7 @@
 # Software Advice
 A not to be taken seriously musing about software problems, wisdom, and possible solutions. DevOps, microservices, containers, RegEx, Linq, "clever" developers and everything in between. 
 
-Using [Pandoc](https://pandoc.org/MANUAL.html) to convert the markdown to PDF and Word with [GitHub Actions](https://github.com/pandoc/pandoc-action-example)
+Using [Pandoc](https://pandoc.org/MANUAL.html) to convert the markdown to PDF and Word with [GitHub Actions](https://github.com/pandoc/pandoc-action-example) (See releases to find a downloadable docx version of the markdown)
 
 [![CI](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml/badge.svg)](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml)
 
