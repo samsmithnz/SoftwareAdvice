@@ -10,3 +10,4 @@ Using [Pandoc](https://pandoc.org/MANUAL.html) to convert the markdown to PDF an
 2. [Chapter 2: Block Chain](02-Chapter2.md)
 3. [Chapter 3: Architecture](03-Chapter3.md)
 3. [Chapter 4: AI](04-Chapter4.md)
+3. [Chapter 5: Security](05-Chapter5.md)
