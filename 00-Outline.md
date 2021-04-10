@@ -92,7 +92,7 @@ we need to understand what we have. What projects are older, what projects have 
 7. Back to GitHub
      1. [ ] Setup dependabot to automatically update dependencies
      2. [ ] Setup security to check for secrets and unsafe dependency
-     3. Setup basic CD, to deploy to each cloud environment, with smoke tests and environment approvals as needed 
+     3. [ ] Setup basic CD, to deploy to each cloud environment, with smoke tests and environment approvals as needed 
 8. Project planning
      1. [ ] Set goals/roadmap. What does Alpha/Beta/GA look like?
      2. [ ] Create Epics
