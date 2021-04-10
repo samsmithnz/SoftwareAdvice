@@ -1,10 +1,8 @@
 # Chapter 1: DevOps
 
-Let's talk about DevOps, or "DevOops". DevOps is primarily about continuously learning. It's ok to make mistakes, but let's automate what we can and not make the same mistake twice. DevOps is primilarly not a tool, or a process, DevOps is a movement of behaviours and culture that encourage postive and blameless progress.
+Let's talk about DevOps. DevOps is primarily about continuously learning and improving. It's ok to make mistakes, but let's automate what we can and not make the same mistake twice. DevOps is not a tool, or a process, DevOps is a movement of behaviours and culture that encourage postive progress.
 
-## Adopting DevOps & transformation tips
-
-Just one: **You need to adapt your organization/processes to DevOps. **Don't think that you can adopt DevOps to your processes. More often than not, for a variety of reasons, that leads to failure.  
+**You need to adapt your organization/processes to DevOps. **Don't think that you can adopt DevOps to your processes. More often than not, that leads to transformation failure.  
 
 ## What not to do
 
