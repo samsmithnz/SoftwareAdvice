@@ -21,3 +21,6 @@ Some developers feel they need to look or prove to others they are smart, and th
 
 ## Using VM's
 It's 2021. If you are using VM's, you aren't cloud native and you are maintaining a legacy product. If you start a new project with VM's, you are doing it wrong. 
+
+## The hardest part of architecture
+Naming things. 
