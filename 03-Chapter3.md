@@ -1,6 +1,7 @@
 # Architecture
 
 > "Whenever a developer thinks they are being clever, they commit an atrocity"
+Every project needs an architecture. An architecture is not just an infrastructure diagram!
 
 ## The curse of Microservices and SOA
 Is your project strategic or is it a line of business application? Does it a major revenue generator for your company? Does your project have ten's of thousands to millions of users? With the rise of Microservices, it's becoming a more common strategy - but more often than not, it will fail. Why?
@@ -17,3 +18,6 @@ When you add middleware, really ask the question: What problem does this solve? 
 Ever looked at code someone else wrote, and thought "what were they thinking?" Ever looked at code you wrote some time ago (years, months, last week), and thought "What was I thinking?" This is common - but highlights why writing simple, maintainable code is so important. Comments matter too.
 
 Some developers feel they need to look or prove to others they are smart, and that putting a vast amount of logic on one line with Linq and RegEx is something to be proud of. It isn't, these are actually some of the worst developers, as very few people can look at that logic when there is a bug or change later, and understand it. More often or not, they have to rewrite it (note - this is where unit tests are critical). It's been proven that a for loop is just as efficent as a linq query - if the code looks too complicated - it is. Use a simple loop(s) and if statement(s) instead - everyone who edits your code later with thank you.
+
+## Using VM's
+It's 2021. If you are using VM's, you aren't cloud native and you are maintaining a legacy product. If you start a new project with VM's, you are doing it wrong. 
