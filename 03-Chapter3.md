@@ -29,4 +29,4 @@ Naming things.
 
 Open source software is incredibly important and a huge timesaver, however, make sure you use software that is well maintained and has a good community, essentially, managing risk. For example, look at the number of stars on GitHub, compare it to competitors. Look at the number of contributors - over time. Some big repos have hundreds of contributors, but when you look into the details, you discover that most have contributed bugs/issues, fixed one bug, or updated the docs, and there is one contributor who has contributed 99% of the work. This is a risk - what happens when that one person gives up on the project or is hit by the big red bus tomorrow? Will your project have to take on maintaining that software or spend significant time looking for a replacement?
 
-![Blockchain](assets/DoINeedABlockChainNo.png)
+![Blockchain](assets/opensourcesoftware.jpg)
