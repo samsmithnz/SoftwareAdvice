@@ -47,6 +47,8 @@ SaFE is not Agile. Agile is not about planning out the next 3 months in detail. 
 
 Agile is about planning to deliver small pieces of work within a spring, that can be adapted, adjusted, and reassessed after each sprint. Agile is about continuously learning. 
 
+![Blockchain](assets/ETAoftheETA.png)
+
 ## steps to success
 Behavior's to successful DevOps
 
