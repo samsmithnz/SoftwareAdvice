@@ -3,6 +3,8 @@
 > "Whenever a developer thinks they are being clever, they commit an atrocity"
 Every project needs an architecture. An architecture is not just an infrastructure diagram!
 
+**The hardest part of architecture**: naming things. 
+
 ## The curse of Microservices and SOA
 Is your project strategic or is it a line of business application? Does it a major revenue generator for your company? Does your project have ten's of thousands to millions of users? With the rise of Microservices, it's becoming a more common strategy - but more often than not, it will fail. Why?
 1. Microservices require dedicated teams. If the team is balancing multiple applications, chances are they don't have the right allocation/bandwidth to make the microservice successful.
@@ -21,9 +23,6 @@ Some developers feel they need to look or prove to others they are smart, and th
 
 ## Using VM's
 It's 2021. If you are using VM's, you aren't cloud native and you are maintaining a legacy product. If you start a new project with VM's, you are doing it wrong. 
-
-## The hardest part of architecture
-Naming things. 
 
 ## Open source software
 
