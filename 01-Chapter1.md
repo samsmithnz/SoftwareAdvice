@@ -49,12 +49,18 @@ Agile is about planning to deliver small pieces of work within a spring, that ca
 
 ![Blockchain](assets/ETAoftheETA.png)
 
+
+## Handling aborted DevOps transformations. 
+Sometimes DevOps doesn't work out. It's usually because of a misunderstanding of DevOps - perhaps that a tool can enable DevOps, or that the organization doesn't have to transform to adopt it. This typically leaves teams feeling like it doesn't work, "I tried unit tests, it didn't work for us". 
+
+**To reboot, some need ‘alternative language’ to enable transformation**. Words such as Agile, DevOps, Unit tests, etc are loaded and many have perceived (and incorrect) ideas about what they are, and have tried to implement them and failed. “We tried unit tests and agile, but it didn’t work for us”. Using different language enables them to try again. Instead of unit tests, L0-L3 tests. Instead of Agile and User Stories, use Scrum and Product Backlog items. It’s subtle, but enough for organizations to redefine these processes and start with a new definition that puts everyone on the same page and removes assumptions.
+
 ## steps to success
 Behavior's to successful DevOps
 
-1. Why DevOps?
-1. What is DevOps
-1. Executive support
+1. Why DevOps? Explain the benefits, get everyone on the same page.
+1. What is DevOps - get everyone on the same page
+1. Executive support - get budgets/ time/ buyin from top to bottom.
 1. Team POC
 1. Construct the Team
 1. Value Stream Mapping
