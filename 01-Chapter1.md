@@ -56,6 +56,12 @@ Sometimes DevOps doesn't work out. It's usually because of a misunderstanding of
 
 **To reboot, some need ‘alternative language’ to enable transformation**. Words such as Agile, DevOps, Unit tests, etc are loaded and many have perceived (and incorrect) ideas about what they are, and have tried to implement them and failed. “We tried unit tests and agile, but it didn’t work for us”. Using different language enables them to try again. Instead of unit tests, L0-L3 tests. Instead of Agile and User Stories, use Scrum and Product Backlog items. It’s subtle, but enough for organizations to redefine these processes and start with a new definition that puts everyone on the same page and removes assumptions.
 
+## Continuous Integration
+Small changes, short lived branches to reduce complexity. Your work will be verified with automated tests - ensuring quality.
+
+## Continuous Deployment
+You don't have to release continuously, but you have to be able to release at anytime. This is an indication that you are ready and can deploy code.
+
 ## steps to success
 Behavior's to successful DevOps
 
