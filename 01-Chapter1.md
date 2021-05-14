@@ -3,6 +3,7 @@
 Let's talk about DevOps. DevOps is primarily about continuously learning and improving. It's ok to make mistakes, but let's automate what we can and not make the same mistake twice. DevOps is not a tool, or a process, DevOps is a movement of behaviours and culture that encourage postive progress.
 
 **You need to adapt your organization/processes to DevOps.** Don't think that you can adopt DevOps to your processes. More often than not, that leads to transformation failure.  
+This isn't a case of "that wouldn't work here". That is rubbish. You have to imagine "what if", and you can get there. If Microsoft can manage this massive change, any organization can.
 
 ## What not to do
 
