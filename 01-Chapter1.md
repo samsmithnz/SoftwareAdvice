@@ -5,6 +5,13 @@ Let's talk about DevOps. DevOps is primarily about continuously learning and imp
 **You need to adapt your organization/processes to DevOps.** Don't think that you can adopt DevOps to your processes. More often than not, that leads to transformation failure.  
 This isn't a case of "that wouldn't work here". That is rubbish. You have to imagine "what if", and you can get there. If Microsoft can manage this massive change, any organization can.
 
+## Culture
+The most important part of DevOps. Main points: 
+1. Take the science seriously, but don't be overly prescriptive
+2. Stop celebrating activity, start celebrating results
+3. You cannot cheat shipping
+4. Build the culture you want, and you'll get the behavior you're after
+
 ## What not to do
 
 - If you think you can adopt DevOps with a new tool, you will be disappointed.
