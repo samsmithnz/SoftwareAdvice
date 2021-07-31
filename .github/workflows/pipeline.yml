@@ -37,7 +37,11 @@ jobs:
     #Build the docx book from the MD files
     - uses: docker://pandoc/core:2.9
       with:
-        args: 01-Chapter1-DevOps.md 02-Chapter2-BlockChain.md 03-Chapter3-Architecture.md 04-Chapter4-AI.md 05-Chapter5-Security.md 06-Chapter6-Leadership.md 07-Chapter7-TheCloud.md --to=docx --output=SoftwareAdvice.docx 
+        args: |
+          01-Chapter1-DevOps.md 02-Chapter2-BlockChain.md 03-Chapter3-Architecture.md 04-Chapter4-AI.md 
+          05-Chapter5-Security.md 06-Chapter6-Leadership.md 07-Chapter7-TheCloud.md 
+          98-Appendix-ProjectStartupList.md 99-Appendix-DevOpsStartupList.md
+          --to=docx --output=SoftwareAdvice.docx 
         #--toc --standalone # --extract-media=. # --standalone # --extract-media=imagesOutput #--from=gfm --standalone 
     - uses: actions/upload-artifact@master
       with:
