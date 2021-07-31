@@ -36,27 +36,6 @@ we need to understand what we have. What projects are older, what projects have 
 - Garbage in == Garbage out
 - Where AI excels today and where you should use it. 
 
-## Leadership/ team management
-
-1. Developing an idea
-1. Leading the team
-2. being a leader
-3. striving for leadership. What is leadership? What isn't leadership? When you are being a manager? Why protecting and advocating for your direct reports is the most important part
-4. Trying to do better than your goals
-5. Lead by example
-6. invest in yourself and team: continuous learning and networking opportunities - retention is a trailing indicator - but people will stay longer than usual if they are still learning, even if salary is less than ideal
-7. Invest in yourself: sleep is important to recharge and repair.
-8. Hiring a team
-    1. How to conduct interviews
-      1. Passion 
-      1. debugging tests
-      1. Thinking tests
-      1. No whiteboards. No mindbenders 
-    2. Developing the team
-      1. Managing 'clever' developers
-      1. Encouraging right incentives
-    3. What does your dream team look like?
-
 ## Cloud Native
 - VM's are not cloud native. If you are deploying VM's in 2021 for a new application, you are failing the cloud
 - Multiple clouds have resilency, but also double the cost, financially, training, time, and complexity. Don't underestimate this. Don't think that Terraform makes you instantly multicloud. 
