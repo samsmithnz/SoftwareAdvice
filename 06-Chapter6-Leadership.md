@@ -10,12 +10,17 @@ Leaders are there
 - A leader needs to recognize, acknowledge, and resolve dysfunction in the team, project, and/or organization. 
 - A leader needs to lead by example. If a leader is terrorizing and bullying a vendor, the leader is teaching his employees to follow the same behaviors
 
+Incentives on a team are everything. Money is important, but not everything. With a good manager and team, employees will stay longer and be more engaged. 
+- One factor here is managing 'clever' developers. We want smart people on our team, but are they doing things that no-one else understands? Are they creating overly complex code just to feel clever? Or are they creating simple, well documented code that anyone can understand.
+- Retention and attrition is a trailing indicator - by the time you look at these metrics, it's already too late.
+
+Invest in yourself. Sleep and vacation is important to recharge and repair. 
+
+Make it clear that your team mental health is just as important as their physical health. It's just as ok to have a sick day, as it is to have a 'sad' day. 
+
 ## Joining a new team
 
 You've joined a new team, you can see there is a lot of potential to improve process by making changes. But first, spend some time observing and understanding why things are the way they are. Is it political? History? Lack of knowledge of a better way? There may be good reasons that things are inefficent, and if you rush to change these before fully understanding, you will upset a large proportion of the team. Instead of you observe, ask questions, you will create a full picture and plan to transform the team to a better state
-
-Incentives on a team are everything. Money is important, but not everything. With a good manager and team, employees will stay longer and be more engaged. 
-- One factor here is managing 'clever' developers. We want smart people on our team, but are they doing things that no-one else understands? Are they creating overly complex code just to feel clever? Or are they creating simple, well documented code that anyone can understand.
 
 ## Interviews
 
@@ -31,17 +36,3 @@ The whole idea of an interview is to work out if you can work with this person f
 - Random software trivia doesn't prove their knowledge - that is what Google is for. All you are doing is confirming that the employee knows random software trivia
 - Proving you understand a quicksort algorithm doesn't prove anything, when in 2021, you can call Array.Sort() or ORDER BY, which works for 99.9% of situations
 
-1. Developing an idea
-1. Leading the team
-2. being a leader
-3. striving for leadership. What is leadership? What isn't leadership? When you are being a manager? Why protecting and advocating for your direct reports is the most important part
-4. Trying to do better than your goals
-5. Lead by example
-6. invest in yourself and team: continuous learning and networking opportunities - retention is a trailing indicator - but people will stay longer than usual if they are still learning, even if salary is less than ideal
-7. Invest in yourself: sleep is important to recharge and repair.
-8. Hiring a team
-    1. How to conduct interviews
-      1. Passion 
-      1. debugging tests
-      1. Thinking tests
-      1. No whiteboards. No mindbenders 
