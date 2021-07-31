@@ -13,3 +13,6 @@ Using [Pandoc](https://pandoc.org/MANUAL.html) with [GitHub Actions](https://git
 5. [Chapter 5: Security](05-Chapter5-Security.md)
 6. [Chapter 6: Leadership](06-Chapter6-Leadership.md)
 7. [Chapter 7: The Cloud](07-Chapter7-TheCloud.md)
+
+- [Appendix 1: New project checklist](98-Appendix-ProjectStartupList.md)
+- [Appendix 2: DevOps checklist](99-Appendix-DevOpsStartUpList.md)
