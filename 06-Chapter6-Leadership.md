@@ -10,6 +10,10 @@ Leaders are there
 - A leader needs to recognize, acknowledge, and resolve dysfunction in the team, project, and/or organization. 
 - A leader needs to lead by example. If a leader is terrorizing and bullying a vendor, the leader is teaching his employees to follow the same behaviors
 
+## Joining a new team
+
+You've joined a new team, you can see there is a lot of potential to improve process by making changes. But first, spend some time observing and understanding why things are the way they are. Is it political? History? Lack of knowledge of a better way? There may be good reasons that things are inefficent, and if you rush to change these before fully understanding, you will upset a large proportion of the team. Instead of you observe, ask questions, you will create a full picture and plan to transform the team to a better state
+
 ## Interviews
 
 The whole idea of an interview is to work out if you can work with this person for potentially years, and that they will add value to your organization. 
