@@ -37,7 +37,7 @@ jobs:
     #Build the docx book from the MD files
     - uses: docker://pandoc/core:2.9
       with:
-        args: 01-Chapter1-DevOps.md 02-Chapter2.md 03-Chapter3.md 04-Chapter4.md 05-Chapter5.md 06-Chapter6.md --to=docx --output=SoftwareAdvice.docx #--toc --standalone # --extract-media=. # --standalone # --extract-media=imagesOutput #--from=gfm --standalone 
+        args: *.md --to=docx --output=SoftwareAdvice.docx #--toc --standalone # --extract-media=. # --standalone # --extract-media=imagesOutput #--from=gfm --standalone 
     - uses: actions/upload-artifact@master
       with:
         name: drop
@@ -56,15 +56,6 @@ jobs:
       run: |
         echo "Version: ${{ needs.build.outputs.Version }}" 
         echo "CommitsSinceVersionSource: ${{ needs.build.outputs.CommitsSinceVersionSource }}" 
-    #- name: Create Release
-    #  id: create_release
-    #  uses: actions/create-release@v1
-    #  if: needs.build.outputs.CommitsSinceVersionSource > 0 #Only create a release if there has been a commit/version change
-    #  env:
-    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-    #  with:
-    #    tag_name: ${{ needs.build.outputs.Version }}
-    #    release_name: Release ${{ needs.build.outputs.Version }}
     - name: Create Release
       uses: ncipollo/release-action@v1
       if: needs.build.outputs.CommitsSinceVersionSource > 0 #Only create a release if there has been a commit/version change
