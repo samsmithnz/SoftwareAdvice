@@ -23,18 +23,12 @@ These are my personal views and do not reflect my employer
     1. Technology. When to use microservices. When not to. When to use containers. What language to use.
     2. Middleware. Frameworks. Packages. DI. Entity framework
 
-## Blockchain
-
-Why?
 
 ## Managing technical debt
 
 we need to understand what we have. What projects are older, what projects have risky/old technology. We need to catalog all applications
 
-## AI
 
-- Garbage in == Garbage out
-- Where AI excels today and where you should use it. 
 
 ## Cloud Native
 - VM's are not cloud native. If you are deploying VM's in 2021 for a new application, you are failing the cloud
