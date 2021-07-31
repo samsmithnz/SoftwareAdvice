@@ -35,6 +35,9 @@ jobs:
         echo "CommitsSinceVersionSource: ${{ steps.gitversion.outputs.CommitsSinceVersionSource }}"
     
     #Build the docx book from the MD files
+    - name: reorder the files first
+      run: |
+        mv README.md 0Contents.md
     - name: create file list
       id: files_list
       run: |
