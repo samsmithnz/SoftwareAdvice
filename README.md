@@ -6,9 +6,10 @@ Using [Pandoc](https://pandoc.org/MANUAL.html) with [GitHub Actions](https://git
 [![CI](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml/badge.svg)](https://github.com/samsmithnz/SoftwareAdvice/actions/workflows/pipeline.yml)
 
 # Contents
-1. [Chapter 1: DevOps](01-Chapter1.md)
-2. [Chapter 2: Block Chain](02-Chapter2.md)
-3. [Chapter 3: Architecture](03-Chapter3.md)
-4. [Chapter 4: AI](04-Chapter4.md)
-5. [Chapter 5: Security](05-Chapter5.md)
-6. [Chapter 6: Leadership](06-Chapter6.md)
+1. [Chapter 1: DevOps](01-Chapter1-DevOps.md)
+2. [Chapter 2: Block Chain](02-Chapter2-BlockChain.md)
+3. [Chapter 3: Architecture](03-Chapter3-Architecture.md)
+4. [Chapter 4: AI](04-Chapter4-AI.md)
+5. [Chapter 5: Security](05-Chapter5-Security.md)
+6. [Chapter 6: Leadership](06-Chapter6-Leadership.md)
+7. [Chapter 7: The Cloud](07-Chapter7-TheCloud.md)
