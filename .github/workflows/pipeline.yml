@@ -37,7 +37,8 @@ jobs:
     #Build the docx book from the MD files
     - name: reorder the files first
       run: |
-        mv README.md 0Contents.md
+        mv README.md 00Contents.md 
+        rm 00-Outline.md
     - name: create file list
       id: files_list
       run: |
