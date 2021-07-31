@@ -35,13 +35,13 @@ jobs:
         echo "CommitsSinceVersionSource: ${{ steps.gitversion.outputs.CommitsSinceVersionSource }}"
     
     #Build the docx book from the MD files
+    - name: create file list
+      id: files_list
+      run: |
+          echo "::set-output name=files::$(printf '"%s" ' *.md)"
     - uses: docker://pandoc/core:2.9
       with:
-        args: |
-          01-Chapter1-DevOps.md 02-Chapter2-BlockChain.md 03-Chapter3-Architecture.md 04-Chapter4-AI.md 
-          05-Chapter5-Security.md 06-Chapter6-Leadership.md 07-Chapter7-TheCloud.md 
-          98-Appendix-ProjectStartupList.md 99-Appendix-DevOpsStartupList.md
-          --to=docx --output=SoftwareAdvice.docx 
+        args: ${{ steps.files_list.outputs.files }} --to=docx --output=SoftwareAdvice.docx 
         #--toc --standalone # --extract-media=. # --standalone # --extract-media=imagesOutput #--from=gfm --standalone 
     - uses: actions/upload-artifact@master
       with:
