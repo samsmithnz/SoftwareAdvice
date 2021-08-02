@@ -1,5 +1,5 @@
-## steps to success
-Behavior's to successful DevOps
+## DevOps steps to success
+Behaviors to successful DevOps
 
 1. **DevOps foundation**
     1. **Why DevOps?** Explain the benefits, get everyone on the same page.
