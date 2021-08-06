@@ -7,7 +7,7 @@ Behaviors to successful DevOps
     1. **Executive support** - get budgets/ time/ buyin from top to bottom.
     1. **Team POC** - identify the right team/project to test these ideas. A smaller project/single team is easier than a large project/many teams.
     1. **Construct the Team** - ensure we have the right people. Do we have a security person? a developer? ops? product manager/owner? a DBA? QA? Who else needs to be involved? 
-    1. **Value Stream Mapping** - understand the pain points in our current process. How long does it take to change a line of code and release it to our end users? Where are the bottlenecks? What processes are manual (and can be automated)?
+    1. **Value Stream Mapping** - understand the pain points in our current process. How long does it take to change a line of code and release it to our end users? Where are the bottlenecks? What processes are manual (and can be automated)? We need ball parks to track success/failure
 1. **Dev/ Repository setup**
     1. **Source Control** - Create a repository in GitHub. Create a backlog of issues and prioritize them. Setup security.
     1. **Branching strategy** - decide on a branching strategy. Hint: Simplier is better, you can always add complexity later. Ideally a main branch with feature branches is best. Warning: This could be a holy war, keep this timeboxed and scoped. Have someone pull rank if needed. This is not a good place to experiment, it just leads to pain. KEEP IT SIMPLE. 
