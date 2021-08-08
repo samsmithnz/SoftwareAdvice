@@ -1,19 +1,18 @@
 ## DevOps steps to success
-Behaviors to successful DevOps
 
-1. **DevOps foundation** Ensure that everyone understands what, why, how, when, and where we are using DevOps. 
-    1. **Why DevOps?** Explain the benefits, get everyone on the same page.
-    1. **What is DevOps** Get everyone on the same page
-    1. **Executive support** - get budgets/ time/ buyin from top to bottom.
-    1. **Team POC** - identify the right team/project to test these ideas. A smaller project/single team is easier than a large project/many teams.
-    1. **Construct the Team** - ensure we have the right people. Do we have a security person? a developer? ops? product manager/owner? a DBA? QA? Who else needs to be involved? 
-    1. **Value Stream Mapping** - understand the pain points in our current process. How long does it take to change a line of code and release it to our end users? Where are the bottlenecks? What processes are manual (and can be automated)? We need ball parks to track success/failure
-1. **Dev/ Repository setup**
-    1. **Source Control** - Create a repository in GitHub. Create a backlog of issues and prioritize them. Setup security.
-    1. **Branching strategy** - decide on a branching strategy. Hint: Simplier is better, you can always add complexity later. Ideally a main branch with feature branches is best. Warning: This could be a holy war, keep this timeboxed and scoped. Have someone pull rank if needed. This is not a good place to experiment, it just leads to pain. KEEP IT SIMPLE. 
-    1. Later/Stretch goals:
-        1. **Coding Standards** - What standards should the code be following? Ideally automation would be best here (e.g. an editorconfig file). Move the opinion from the code review er to an automated system to reduce team conflit 
-        1. **Code Analysis** - what code analysis tools will we use to ensure quality? CodeQL? SonarCloud? Using this earlier will keep a handle on technical debt. Warning: Running this on existing projects will uncover hundreds, if not thousands of issues and overwhelm the team. Consider ignoring the first batch of issues on an existing project, or everything non-critical. 
+1. [ ] **DevOps foundation** Ensure that everyone understands what, why, how, when, and where we are using DevOps. 
+    1. [ ] **Why DevOps?** Explain the benefits, get everyone on the same page.
+    1. [ ] **What is DevOps** Get everyone on the same page about what DevOps is. No assumptions. 
+    1. [ ] **Executive support** - get budgets/ time/ buyin from top to bottom.
+    1. [ ] **Team POC** - identify the right team/project to test these ideas. A smaller project/single team is easier than a large project/many teams.
+    1. [ ] **Construct the Team** - ensure we have the right people. Do we have a security person? a developer? ops? product manager/owner? a DBA? QA? Who else needs to be involved? 
+    1. [ ] **Value Stream Mapping** - understand the pain points in our current process. How long does it take to change a line of code and release it to our end users? Where are the bottlenecks? What processes are manual (and can be automated)? Who is needs to approve pieces? Regulations? We need ball park metrics to track success/failure
+1. [ ] **Dev/ Repository setup**
+    1. [ ] **Source Control** - Create a repository in GitHub. Create a backlog of issues and prioritize them. Setup security.
+    1. [ ] **Branching strategy** - decide on a branching strategy. Hint: Simplier is better, you can always add complexity later. Ideally a main branch with feature branches is best. Warning: This could be a holy war, keep this timeboxed and scoped. Have someone pull rank if needed. This is not a good place to experiment, it just leads to pain. KEEP IT SIMPLE. 
+    1. Stretch goals:
+        1. [ ] **Coding Standards** - What standards should the code be following? Ideally automation would be best here (e.g. an editorconfig file). Move the opinion from the code review er to an automated system to reduce team conflit 
+        1. [ ] **Code Analysis** - what code analysis tools will we use to ensure quality? CodeQL? SonarCloud? Using this earlier will keep a handle on technical debt. Warning: Running this on existing projects will uncover hundreds, if not thousands of issues and overwhelm the team. Consider ignoring the first batch of issues on an existing project, or everything non-critical. 
 1. **CI**
     1. **Branch Policies** - When we create a PR, what do we need to merge the feature branch back to main? A successful build? Tests? Code review? manager approver? Try to minimize the number of people involved. If you need a DBA, senior director, security guy, and architect to approve every change, your process benefits will be reduced. 
     1. **Pull Requests** - Not muct to setup here after branch policies and branch strategy is done. A good time to remind the team that pull requests, like branches, should be short lived, hanging around for days, not months. Have the team use PR's for work in progress and use draft PR's to help them develop the feature
