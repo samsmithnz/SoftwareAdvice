@@ -71,3 +71,6 @@ Small changes, with short lived branches to reduce complexity. Your work will be
 You don't have to release continuously, but you have to be able to release at anytime. This is an indication that you are ready and can deploy code.
 
 
+## Getting started
+See the [checklist in the appendix](99-Appendix-DevOpsStartUpList.md)
+
