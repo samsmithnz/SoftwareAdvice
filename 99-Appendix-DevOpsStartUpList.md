@@ -17,7 +17,7 @@
     1. [ ] **Branch Policies** - When we create a PR, what do we need to merge the feature branch back to main? A successful build? Tests? Code review? manager approver? Try to minimize the number of people involved. If you need a DBA, senior director, security guy, and architect to approve every change, your process benefits will be reduced. 
     1. [ ] **Pull Requests** - A good time to remind the team that pull requests and feature branches should be short lived, hanging around for days, not months. Have the team use PR's for work in progress and use draft PR's to help them develop the feature
     1. [ ] **Testing Strategy** - Unit tests are critical. If you can't get feedback on a change in seconds or minutes - then your application is in trouble. Have a good balance of unit, integration and functional tests. Define what each of these tests mean (don't be surprised that everyone thinks a unit test is something else). Include performance and load tests too!
-1. **CD**
+1. [ ] **CD**
     1. [ ] **Continuous Delivery**: Setup a deployment to production on every merge to main. Make sure the build deploys to dev and qa ok too. Approvals to production are ok - perhaps you push to dev/qa every merge, but only prod every couple of weeks.
     1. [ ] **Make sure that a secrets manager is used to manage secrets. No secrets should be stored in source code. **
     1. [ ] Stretch goals:
@@ -25,7 +25,7 @@
         1. [ ] **The cloud**: The cloud exists for us to elastic scale as needed. Use it for short-lived dynamic dev/qa environments. Ideally when starting a new branch, you can (relatively) quickly create a new environment to test that change before merging. Make use of services like Redis and CDN that were previously really expensive, and are now, not. 
         1. [ ] **Feature Flags**: Continuous deployment, in my opinion, is not possible without feature flags/toggles. Feature flags allow you to wrap changes up into a branches - removing the change from the deployment, instead giving power to the business to enable the feature when they need to. Advanced feature flag systems can target specific users, groups, ip ranges/areas, to help test that the change is safe. If you deploy a bug to production, how quickly can you disable it - without cheating the DevOps process? 10 mins? 2 hours? With a feature flag, it's seconds.
         1. [ ] **Continuous Deployment**: Deploy to production on every merge. Use feature flags to make this safe    
-1. **CM**: All stretch goals
+1. [ ] **CM**: All stretch goals
     1. [ ] **DevSecOps**: Do you have security checking dependencys? Do you have dependabot updating them? Does GitHub advanced security make sense here?
     2. [ ] **Monitoring**: Do you have monitoring with an understanding of what 'normal' levels are? Can you detect with CPU spikes? When a cert is about to expire? When storage is running low. You won't capture everything, but continue to evolve this
     3. [ ] **Alerting**: Don't over alert. Every alert should be actionable - otherwise it's a log. If you receive an alert and do nothing - why did you get that alert?  Review the log regularly to make sure there is nothing you are missing.  
