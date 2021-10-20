@@ -32,6 +32,7 @@ The most important part of DevOps. Main points:
 - Their automated testing is not comprehensive, there is no strategy and/or there are no unit tests
 - Dev/Sandbox/QA/Test/Staging/Alpha/Beta/Pre-prod/Prod are not identical and not managed with code. If the non-production environments don't match production, you have no way of confirming if the change will work or not
 - No feature flags. Mistakes happen, even in the best teams. Mistakes are ok - but how quickly can you recover? Feature flags really help with this. 
+- Storing secrets in repositories
 
 ## Automated testing
 Automated testing is usually the first challenge in implementing DevOps. Resistance is common from the QA manager/team, who misunderstand that the point of automation is not to replace their jobs - it's to replace the long regression testing phases. QA can now focus on the latest changes, and be confident that their previous changes are being tested.
