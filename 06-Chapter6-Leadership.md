@@ -24,12 +24,12 @@ You've joined a new team, you can see there is a lot of potential to improve pro
 
 ## Interviews
 
-The whole idea of an interview is to work out if you can work with this person for potentially years, and that they will add value to your organization. When you are hiring, try to have an idea of what your dream team looks like, and what you need to make your team better.
+The whole idea of an interview is to work out if you can work with this person- for potentially years, and that they will add value to your organization. When you are hiring, try to have an idea of what your dream team looks like, and what you need to make your team better.
 
 **What to ask:**
 - Test their knowledge of what they say they know- not what you know. 
 - Verify that you could work with this person for multiple years. Do they fit into the culture? 
-- Confirm that if this person doesn’t know something they are motivated to learn and will learn it.
+- Confirm that if this person doesn’t know something, they are motivated to learn, **and will** learn it.
 
 **What NOT to ask:**
 - Asking them to draw the code for a recursive fibonacci sequence on a whiteboard does not advance any of these goals
