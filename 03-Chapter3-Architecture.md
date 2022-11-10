@@ -1,9 +1,11 @@
 # Architecture
 
 > "Whenever a developer thinks they are being clever, they commit an atrocity"
-Every project needs an architecture. An architecture is not just an infrastructure diagram!
 
-**The hardest part of architecture**: naming things. 
+![image](https://user-images.githubusercontent.com/8389039/201220906-95a21029-89ec-4a2a-a2a2-f43c7ed9a19b.png)
+
+- Every project needs an architecture. An architecture is not just an infrastructure diagram!
+- **The hardest part of architecture**: naming things. 
 
 ## The curse of Microservices and SOA
 Is your project strategic or is it a line of business application? Does it a major revenue generator for your company? Does your project have ten's of thousands to millions of users? With the rise of Microservices, it's becoming a more common strategy - but more often than not, it will fail. Why?
